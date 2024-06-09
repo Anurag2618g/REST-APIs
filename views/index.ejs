@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <% if ( locals.secret) { %>
   <h1>What's your secret?</h1>
   <div class="card">
     <p>
@@ -21,6 +22,7 @@
   <p class="user">
     <%= user %>
   </p>
+  <% } %>
 </body>
 
 </html>
